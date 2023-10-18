@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator-grid">
+      <div class="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand">0</div>
+      </div>
+
+      <button data-number name="number" id="pi">&#960;</button>
+      <button data-number name="number" id="e">e</button>
+      <button data-clear>AC</button>
+      <button data-delete class="span-two">DEL</button>
+
+      <button data-operation id="sqrd">x&sup2;</button>
+      <button data-operation id="oneOverX">&#8543;<sub>x</sub></button>
+      <button data-operation id="sin">sin</button>
+      <button data-operation id="cos">cos</button>
+      <button data-operation id="tan">tan</button>
+
+      <button data-operation id="sqrRoot">&radic;</button>
+      <button data-OpenBrackets id="OpenBracket">(</button>
+      <button data-CloseBrackets id="CloseBracket">)</button>
+      <button data-operation id="factorial">n!</button>
+      <button data-operation id="/">&divide;</button>
+
+      <button data-operation id="**">x<sup>y</sup></button>
+      <button data-number class="number" name="number">7</button>
+      <button data-number class="number" name="number">8</button>
+      <button data-number class="number" name="number">9</button>
+      <button data-operation id="*">&times;</button>
+
+      <button data-operation id="TenOverX">10<sup>x</sup></button>
+      <button data-number class="number" name="number">4</button>
+      <button data-number class="number" name="number">5</button>
+      <button data-number class="number" name="number">6</button>
+      <button data-operation id="-">-</button>
+
+      <button data-operation id="log">log</button>
+      <button data-number class="number" name="number">1</button>
+      <button data-number class="number" name="number">2</button>
+      <button data-number class="number" name="number">3</button>
+      <button data-operation id="+">+</button>
+
+      <button data-operation id="logN">ln</button>
+      <button data-operation class="number" id="negate">&#8314;/&#8331;</button>
+      <button data-number class="number" name="number">0</button>
+      <button data-number class="number" name="number">.</button>
+      <button data-equals>=</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Calculator",
+    "version": "1.0.0",
+
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Calculator"
+    },
+    "description": "Calculator"
+}
