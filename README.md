@@ -9,4 +9,3 @@ This is a simple calculator project that I made because I've never seen a caucul
 2. Click "Extensions", then "Manage extensions"
 3. On the top-right corner enable the developer mode
 4. Then "Load Unpacked" and select the folder where the plugin files are in
-5. 
