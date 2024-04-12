@@ -1,6 +1,6 @@
 # Scientific Calculator
 
-This is a simple calculator project that I made, aimed to be calculator plugin that could do more complex calculations
+This is a simple calculator project that I made, aimed to be a calculator plugin that could do more complex calculations and would not interrupt my workflow to do a calculation. It can be easilly accesed through the plugin tab
 
 # Instalation
 - Note: It works ***ONLY*** on google chrome
